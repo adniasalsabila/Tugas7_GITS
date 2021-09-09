@@ -7,7 +7,7 @@ class Bunga(_nama:String, _namaLatin:String="Helianthus", _warna: String="Kuning
     fun tampilDeskripsi():String{
         val hasil = "*****Deskripsi Bunga*****" +
                 "\nNama : Bunga "+nama+
-                "\nNama Latin :  "+namaLatin+
+                "\nNama Latin : "+namaLatin+
                 "\nWarna : "+warna+
                 "\nDaerah Asal : "+daerahAsal+
                 "\n\n"
